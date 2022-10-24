@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- from 表单域  action接收处理表单数据 method设置表单数据提交方式 name 指定表单的名称  -->
+    <!-- <from action="demo.php" method="POST" name="name1"></from> -->
+    <from>
+        <!-- maxlength最大数字的个数 -->
+        用户：<input type="text" value="请输入用户名" maxlength="7"><br>
+        密码：<input type="password"><br>
+
+        <!-- checked在单选复选时默认选择 -->
+
+        <!-- 单选  name要相同-->
+        性别：男 <input type="radio" name="1"checked="checked"> 女<input type="radio" name="1"><br>
+        <!-- 复选框 -->
+        爱好： 1  <input type="checkbox" checked="checked"> 2 <input type="checkbox"><br>
+        <!-- 下拉列表 -->
+        籍贯：
+        <select >
+            <option value="">2</option>
+            <option value="">4</option>
+            <option value="">6</option>
+        </select><br>
+
+        <!-- 文本域 cols一行字节数 rows行数 -->
+        自我评价：
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+
+    </from>
+
+</body>
+</html>
